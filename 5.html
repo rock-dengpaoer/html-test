@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.city {
+  background-color: tomato;
+  color: white;
+  padding: 10px;
+}
+
+#myHeader {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
+</style>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<h2 class="city">London</h2>
+<p>London is the capital of England.</p>
+
+<h2 class="city">Paris</h2>
+<p>Paris is the capital of France.</p>
+
+<h2 class="city">Tokyo</h2>
+<p>Tokyo is the capital of Japan.</p>
+
+<h2 class="city main">London</h2>
+<h2 class="city">Paris</h2>
+<h2 class="city">Tokyo</h2>
+
+<h2 class="city">Paris</h2>
+<p class="city">Paris is the capital of France</p>
+
+<h1 id="myHeader">My Header</h1>
+<hr>
+
+<!-- An element with a unique id -->
+<h1 id="myHeader">My Cities</h1>
+
+<!-- Multiple elements with same class -->
+<h2 class="city">London</h2>
+<p>London is the capital of England.</p>
+
+<h2 class="city">Paris</h2>
+<p>Paris is the capital of France.</p>
+
+<h2 class="city">Tokyo</h2>
+<p>Tokyo is the capital of Japan.</p>
+
+<iframe src="index.html"  style="border:none;" title="description"></iframe>
+
+<iframe src="index.html" style="border:2px solid red;" title="Iframe Example"></iframe>
+
+<iframe src="index.html" style="border:none;" title="Iframe Example"></iframe><hr>
+
+<iframe src="demo_iframe.htm" name="iframe_a" title="Iframe Example"></iframe>
+
+<p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
+<hr>
+
+<p id="demo"></p>
+
+<script>
+    document.getElementById("demo").innerHTML = "Hello JavaScript!";
+    document.getElementById("demo").style.fontSize = "25px";
+    document.getElementById("demo").style.color = "red";
+    document.getElementById("demo").style.backgroundColor = "yellow";
+    
+    </script>
+<hr>
+<script>
+document.getElementById("image").src = "picture.gif";
+</script>
+
+<noscript>Sorry, your browser does not support JavaScript!</noscript>
+</body>
+</html>
